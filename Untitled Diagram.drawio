@@ -1,1 +1,88 @@
-<mxfile host="app.diagrams.net" modified="2022-04-27T00:03:33.577Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" version="17.4.6" etag="gXZZdUXY-PVghbP_CgUA" type="github"><diagram id="_UvdzSkJSZG2HeQZSI8I">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-27T00:31:55.520Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="aLoJPgbRVmavk1S-ft8a" version="17.4.6" type="github">
+  <diagram id="_UvdzSkJSZG2HeQZSI8I" name="Page-1">
+    <mxGraphModel dx="1248" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="J89ehoEMHg0eU62olk_V-3" value="Storage Layer&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="460" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J89ehoEMHg0eU62olk_V-4" value="Ingestion" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="460" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J89ehoEMHg0eU62olk_V-5" value="Train / Prep Data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="565" y="455" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J89ehoEMHg0eU62olk_V-6" value="Model and Serve" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="760" y="450" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J89ehoEMHg0eU62olk_V-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="J89ehoEMHg0eU62olk_V-8" target="J89ehoEMHg0eU62olk_V-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J89ehoEMHg0eU62olk_V-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="J89ehoEMHg0eU62olk_V-8" target="J89ehoEMHg0eU62olk_V-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J89ehoEMHg0eU62olk_V-8" value="Data Sources (On-prem DB&#39;s, Other clouds, SAP HANA, Fileshares, Real time data etc" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="200" width="150" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="J89ehoEMHg0eU62olk_V-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="J89ehoEMHg0eU62olk_V-9" target="J89ehoEMHg0eU62olk_V-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J89ehoEMHg0eU62olk_V-9" value="AWS S3&lt;br&gt;&lt;br&gt;(Bronze/Silver/Gold) Tiers&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="395" width="125" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="J89ehoEMHg0eU62olk_V-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="J89ehoEMHg0eU62olk_V-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="415" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J89ehoEMHg0eU62olk_V-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="J89ehoEMHg0eU62olk_V-10" target="J89ehoEMHg0eU62olk_V-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J89ehoEMHg0eU62olk_V-10" value="AWS Databricks (Spark Engine)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="380" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="J89ehoEMHg0eU62olk_V-11" value="PowerBI (BI Dashboard)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="110" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="J89ehoEMHg0eU62olk_V-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="J89ehoEMHg0eU62olk_V-14" target="J89ehoEMHg0eU62olk_V-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J89ehoEMHg0eU62olk_V-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="J89ehoEMHg0eU62olk_V-14" target="J89ehoEMHg0eU62olk_V-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="980" y="415" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J89ehoEMHg0eU62olk_V-14" value="AWS SageMager (MLOps Platform)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="375" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J89ehoEMHg0eU62olk_V-17" value="Web App" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="395" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J89ehoEMHg0eU62olk_V-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J89ehoEMHg0eU62olk_V-19" target="J89ehoEMHg0eU62olk_V-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J89ehoEMHg0eU62olk_V-19" value="AWS Glue (ETL/Batch)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="405" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J89ehoEMHg0eU62olk_V-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="J89ehoEMHg0eU62olk_V-20" target="J89ehoEMHg0eU62olk_V-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="290" />
+              <mxPoint x="448" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J89ehoEMHg0eU62olk_V-20" value="AWS Kinesis (Streaming / Real time)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J89ehoEMHg0eU62olk_V-30" value="Hot Path" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="220" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J89ehoEMHg0eU62olk_V-31" value="Cold path" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="265" y="365" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
